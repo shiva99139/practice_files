@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-inex values</title>
+<style>
+.viru{
+height:100px;
+width:150px;
+
+}
+img{
+border: 3px solid red;
+position: absolute;
+top:10px;
+z-index: -10;
+
+}
+
+.para{
+
+background-color: black;
+color:red;
+width: 200px;
+height:200px;
+margin:20px;
+overflow-y: visible;
+}
+
+
+
+</style>
+
+</head>
+<body>
+<div class="viru">
+    <h1>About Virat kohli </h1>
+</div>
+
+<img src="data:image/jpeg;base64,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">
+  
+
+<div class="para"> Virat Kohli (Hindi pronunciation: [ʋɪˈɾɑːʈ ˈkoːɦli] (listen); born 5 November 1988) is an Indian international cricketer and the former captain of the Indian national cricket team. Widely regarded as one of the greatest batsmen in the history of the sport,[4] he plays for Royal Challengers Bangalore in the IPL and Delhi in domestic cricket. Kohli holds numerous records in his career which includes scoring most runs in T20 internationals and IPL, fastest to reach 10,000 ODI runs. In 2020, the International Cricket Council named him the male cricketer of the decade. Kohli has also contributed to India's successes, including winning the 2011 World Cup and the 2013 Champions trophy. He is among the only four Indian cricketers who has played 500 matches for India.[5]
+
+    Born and raised in New Delhi, Kohli trained at the West Delhi Cricket Academy and started his youth career with the Delhi Under-15 team. He made his international debut in 2008 and quickly became a key player in the ODI team and later made his Test debut in 2011. In 2013, Kohli reached the number one spot in the ICC rankings for ODI batsmen for the first time. During 2014 T20 World Cup, he set a record for the most runs scored in the tournament. In 2018, he achieved yet another milestone, becoming the world's top-ranked Test batsman, making him the only Indian cricketer to hold the number one spot in all three formats of the game. His form continued in 2019, when he became the first player to score 20,000 international runs in a single decade. In 2021, Kohli made the decision to step down as the captain of the Indian national team for T20Is, following the T20 World Cup and in early 2022 he stepped down as the captain of the Test team as well.
+    
+    He has received many accolades for his performances on the cricket field. He was recognized as the ICC ODI Player of the Year in 2012 and has won the Sir Garfield Sobers Trophy, given to the ICC Cricketer of the Year, on two occasions, in 2017 and 2018 respectively. Subsequently, Kohli also won ICC Test Player of the Year and ICC ODI Player of the Year awards in 2018, becoming the first player to win both awards in the same year. Additionally, he was named the Wisden Leading Cricketer in the World for three consecutive years, from 2016 to 2018. At the national level, Kohli was honoured with the Arjuna Award in 2013, the Padma Shri under the sports category in 2017 and the Khel Ratna award, India's highest sporting honour, in 2018. </div>
+
+</body>
+</html>

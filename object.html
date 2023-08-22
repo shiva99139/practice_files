@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects in HTML</title>
+</head>
+<body>
+
+       <h1> Learning Objects in javascript </h1>
+       <p id="demo">  </p> 
+
+<script>  
+     const car = { color : "red",firstname :"Audi",fulldetails: function(){
+
+    return this.color + "  "+this.firstname;
+
+    
+     } };
+
+
+     const kal = { color : "red",firstname :"Audi",fulldetails: function(){
+
+return this.color + "  "+this.firstname;
+     }}
+     
+
+     document.getElementById("demo").innerHTML=car.fulldetails();
+
+     document.getElementById("demo").innerHTML=kal.fulldetails();
+
+
+
+</script>
+
+
+
+
+
+   
+
+
+
+</body>
+</html>
